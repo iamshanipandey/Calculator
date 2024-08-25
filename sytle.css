@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: solid 1px white;
+    border-radius: 2rem;
+    width: 380px;
+    height: 620px;
+}
+
+.output {
+    width: 100%;
+    height: 100px;
+}
+
+input { 
+    margin-top: 50px;
+    padding: 20px;
+    padding-right: 40px;
+    width:100%;
+    height: 70px;
+    border:none;
+    outline: none;
+    background: transparent;
+    color:white;
+    direction:ltr;
+    text-align: right;
+    font-size: 40px;
+}
+
+.firstRow {
+    display: grid;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+    column-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.box1 {
+    width: 65px;
+    height: 65px;
+    border-radius: 10rem;
+    outline: none;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    width: 65px;
+    height: 65px;
+    border-radius: 10rem;
+    outline: none;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+    width: 65px;
+    height: 65px;
+    border-radius: 10rem;
+    outline: none;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 {
+    width: 65px;
+    height: 65px;
+    border-radius: 10rem;
+    outline: none;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey {
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.orange {
+    background-color: rgb(216, 144, 11);
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.lightgrey {
+    background-color: rgb(59, 59, 59);
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.threeBox {
+    display: flex;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    column-gap: 20px;
+}
+
+.box5 {
+    width: 65px;
+    height: 65px;
+    border-radius: 10rem;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigBox {
+    width: 155px;
+}
